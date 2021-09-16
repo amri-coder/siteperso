@@ -1,7 +1,17 @@
 .navbar {
     background-color: #007BB6 !important;
-    color: #C9C9C9 !important;
     font-family: 'Mate SC', serif;
+
+}
+.text-link {
+    color: #C9C9C9;
+    text-decoration:none; 
+}
+.text-link:hover {
+    color:white;
+}
+.text-link:focus {
+    color:white !important;
 }
 
 @media only screen and (max-width:815px) {
