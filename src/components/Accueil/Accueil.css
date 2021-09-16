@@ -1,0 +1,12 @@
+.container {
+    background-color: brown;
+}
+.col1 {
+    background-color: yellow;
+    justify-content: space-between;
+    padding-right: 2%;
+  
+}
+.col2 {
+    background-color: darkgrey;
+}
