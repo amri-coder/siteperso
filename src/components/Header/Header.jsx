@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import {Container, Nav, NavDropdown} from 'react-bootstrap'
+import './Header.css';
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" className="navbar">
   <Container>
   <Navbar.Brand href="#home">Amri Maher</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
