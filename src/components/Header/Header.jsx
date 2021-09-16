@@ -2,7 +2,7 @@ import React from 'react'
 import {Link, Route} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar'
 import {Container, Nav, NavDropdown} from 'react-bootstrap'
-import About from '../About/About';
+
 
 import './Header.css';
 
@@ -10,12 +10,12 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className="navbar">
             <Container>
-                <Navbar.Brand href="#home">Amri Maher</Navbar.Brand>
+                <Navbar.Brand href="/Accueil">Amri Maher</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link href="#accueil">Accueil</Nav.Link>
-                    <Link to="/About">À propos</Link>
+                    <Nav.Link href="/Accueil">Accueil</Nav.Link>
+                    <Nav.Link href="/About">À propos</Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown">
                       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -25,8 +25,8 @@ const Header = () => {
                     </NavDropdown>
                   </Nav>
                   <Nav>
-                    <Nav.Link href="#deets">Contact</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
+                    <Nav.Link href="/Contact">Contact</Nav.Link>
+                    <Nav.Link href="/Realisations">
                       Réalisations
                     </Nav.Link>
                   </Nav>
