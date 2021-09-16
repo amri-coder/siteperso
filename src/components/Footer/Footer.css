@@ -1,0 +1,12 @@
+footer {
+    background-color: #21081A;
+    color: #C9C9C9 !important;
+}
+.p-3 {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #C9C9C9;
+}
+.p-3 > a {
+    text-decoration:none; 
+    color: #C9C9C9 !important;
+}
