@@ -10,12 +10,12 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className="navbar">
             <Container>
-                <Navbar.Brand href="/Accueil">Amri Maher</Navbar.Brand>
+                <Navbar.Brand><Link to="/Accueil">Amri Maher</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                    <Nav.Link href="/Accueil">Accueil</Nav.Link>
-                    <Nav.Link href="/About">À propos</Nav.Link>
+                  <Nav.Link><Link to="/Accueil">Accueil</Link></Nav.Link>
+                  <Nav.Link><Link to="/About">À propos</Link></Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown">
                       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -25,10 +25,9 @@ const Header = () => {
                     </NavDropdown>
                   </Nav>
                   <Nav>
-                    <Nav.Link href="/Contact">Contact</Nav.Link>
-                    <Nav.Link href="/Realisations">
-                      Réalisations
-                    </Nav.Link>
+                  <Nav.Link><Link to="/Realisations">Réalisations</Link></Nav.Link>
+                  <Nav.Link><Link to="/Contact">Contact</Link></Nav.Link>
+                    
                   </Nav>
                 </Navbar.Collapse>
             </Container>
