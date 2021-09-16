@@ -1,4 +1,12 @@
 .navbar {
     background-color: #007BB6 !important;
     color: #C9C9C9 !important;
+    font-family: 'Mate SC', serif;
 }
+
+@media only screen and (max-width:815px) {
+    .navbar {
+        text-align: center;
+        font-size: large;
+    }
+   }

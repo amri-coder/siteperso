@@ -1,6 +1,7 @@
 footer {
     background-color: #007BB6;
     color: #C9C9C9 !important;
+    font-family: 'Mate SC', serif;
 }
 .p-3 {
     background-color: rgba(0, 0, 0, 0.2);
@@ -9,4 +10,7 @@ footer {
 .p-3 > a {
     text-decoration:none; 
     color: #C9C9C9 !important;
+}
+footer .p-4 .socialicon{
+    margin-right: 1%;
 }
