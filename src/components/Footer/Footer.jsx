@@ -6,7 +6,7 @@ class Footer extends React.Component {
 
   state={
 
-    curTime : new Date().toLocaleString(),
+    curTime : new Date().getFullYear(),
 
   }
 
@@ -25,8 +25,8 @@ class Footer extends React.Component {
 
           {/* <!-- Copyright --> */}
           <div className="text-center p-3">
-          {this.state.curTime}
-            © Copyright with love 💻
+          
+            © {this.state.curTime} Copyright with love 💻
             <a href="http://amri.store" target="_blank" rel="noreferrer"> - Maher -</a>
           </div>
           {/* <!-- Copyright --> */}

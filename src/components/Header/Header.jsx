@@ -1,35 +1,40 @@
 import React from 'react'
+import {Link, Route} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar'
 import {Container, Nav, NavDropdown} from 'react-bootstrap'
+import About from '../About/About';
+
 import './Header.css';
 
 const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className="navbar">
-  <Container>
-  <Navbar.Brand href="#home">Amri Maher</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link href="#accueil">Accueil</Nav.Link>
-      <Nav.Link href="#pricing">À propos</Nav.Link>
-      <NavDropdown title="Services" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">Contact</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Réalisations
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
+            <Container>
+                <Navbar.Brand href="#home">Amri Maher</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="me-auto">
+                    <Nav.Link href="#accueil">Accueil</Nav.Link>
+                    <Link to="/About">À propos</Link>
+                    <NavDropdown title="Services" id="collasible-nav-dropdown">
+                      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                      <NavDropdown.Divider />
+                      <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    </NavDropdown>
+                  </Nav>
+                  <Nav>
+                    <Nav.Link href="#deets">Contact</Nav.Link>
+                    <Nav.Link eventKey={2} href="#memes">
+                      Réalisations
+                    </Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+            </Container>
+   
 </Navbar>
+ 
     )
 }
 
