@@ -1,12 +1,18 @@
-.container {
+.accueil Container {
     background-color: brown;
+   
+
 }
-.col1 {
+.accueil .col1 {
     background-color: yellow;
     justify-content: space-between;
     padding-right: 2%;
+    text-align: center;
+
+    
   
 }
-.col2 {
+.accueil .col2 {
     background-color: darkgrey;
+  
 }
