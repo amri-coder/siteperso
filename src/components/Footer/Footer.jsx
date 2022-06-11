@@ -27,7 +27,7 @@ class Footer extends React.Component {
           <div className="text-center p-3">
           
             © {this.state.curTime} Copyright made with love 💻 by
-            <a href="https://github.com/amri-coder" target="_blank" rel="noreferrer"> - Maher -</a>
+            <a href="mailto:amri.maher@yahoo.com" target="_blank" rel="noreferrer"> - Maher -</a>
           </div>
           {/* <!-- Copyright --> */}
           
