@@ -18,10 +18,10 @@ const Header = () => {
                   <Nav.Link><Link to="/About" className='text-link'>À propos</Link></Nav.Link>
                     <NavDropdown title="Services" id="collasible-nav-dropdown" className='text-link'>
                       <NavDropdown.Item href="#action/3.1" className='text-link'>Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.2" className='text-link'>Another action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action/3.3" className='text-link'>Something</NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.2" className='text-link'>Autre action</NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.3" className='text-link'>Quelque chose</NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                      <NavDropdown.Item href="#action/3.4">Présentation</NavDropdown.Item>
                     </NavDropdown>
                   </Nav>
                   <Nav>
